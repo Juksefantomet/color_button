@@ -25,3 +25,8 @@ toolbar: "undo redo | red_color_button blue_color_button"
 
 
 Render your editable with tinymce, select text and click the button.
+
+
+sources:
+
+https://www.tiny.cloud/docs/advanced/creating-a-custom-button/
