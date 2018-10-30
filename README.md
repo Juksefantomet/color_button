@@ -11,7 +11,9 @@ Placed into:
 
 
 Append the following lines to the tinymce init script, plugin & toolbar content
-'color_button' & red/blue_color_button
+'textcolor color_button' & red/blue_color_button
+
+textcolor is vital as color_button relies on this just as colorpicker does
 
 ```
 plugins: ["autoresize", "paste", "textcolor", "color_button"]
