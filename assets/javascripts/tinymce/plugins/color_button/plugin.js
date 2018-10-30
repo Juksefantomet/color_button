@@ -4,7 +4,7 @@ tinymce.PluginManager.add('color_button', function(editor, url) {
   editor.addButton('red_color_button', {
     //icon: 'false',
     image: 'http://p.yusukekamiyamane.com/icons/search/fugue/icons/edit-color.png',
-    tooltip: 'Mark tekst RED',
+    tooltip: 'Mark text RED',
     onclick: function() {
       //editor.insertContent(editor.selection.getContent(), editor.execCommand("ForeColor", false, "red"));
       editor.insertContent(editor.selection, editor.execCommand("ForeColor", false, "red"));
@@ -14,7 +14,7 @@ tinymce.PluginManager.add('color_button', function(editor, url) {
   editor.addButton('blue_color_button', {
     //icon: 'false',
     image: 'http://p.yusukekamiyamane.com/icons/search/fugue/icons/globe.png',
-    tooltip: 'Mark tekst BLUE',
+    tooltip: 'Mark text BLUE',
     onclick: function() {
       //editor.insertContent(editor.selection.getContent(), editor.execCommand("ForeColor", false, "red"));
       editor.insertContent(editor.selection, editor.execCommand("ForeColor", false, "blue"));
